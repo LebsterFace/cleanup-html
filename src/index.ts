@@ -9,7 +9,7 @@ new Command('cleanup-html')
 	.version('0.5.0', "-v, -V, --version")
 	.option('-i, --input <path>', 'input file path')
 	.option('-o, --output <path>', 'output file path')
-	.option("--short-listeners", "Reference callbacks directly in `addEventListener`s")
+	.option("--short-listeners", "reference callbacks in addEventListener")
 	.action((opts: Record<string, any>) => {
 		const source = readFileSync(opts.input ?? process.stdin.fd, "utf-8");
 		const result = cleanup(source, opts);
