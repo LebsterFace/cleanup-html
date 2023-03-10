@@ -20,6 +20,7 @@
 		"cli",
 		"utility"
 	],
+	"bin": "dist/index.js",
 	"author": "Lebster",
 	"license": "MIT"
 }

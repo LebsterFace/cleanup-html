@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 import { readFileSync, writeFileSync } from "node:fs";
 import { Command } from 'commander';
 import { cleanup } from "./cleanup.js";
