@@ -17,3 +17,7 @@ Options:
   --short-listeners    reference callbacks in addEventListener
   -h, --help           display help for command
 ```
+
+## Other useful tools
+ - [UnCSS](https://github.com/uncss/uncss) - Remove unused styles from CSS
+ - [Lebab](https://github.com/lebab/lebab) - Transform ES5 code to ES6/7
